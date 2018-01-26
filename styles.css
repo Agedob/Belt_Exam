@@ -26,7 +26,7 @@
 #head_p{
     display: inline-block;
     padding-left: 550px;
-    padding-top: 10px
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ background-color: white;
 }
 
 #menu_bar{
-    background-color:#525252
+    background-color:#525252;
     padding: 5px 0px;
 }
 
@@ -43,22 +43,23 @@ background-color: white;
     background: linear-gradient(#525252,#242424);
 }
 #menu_home{
+    color: white;
     margin-left: 20px;
 }
 
 .menu_p{
-    color: white;
+    color: #a2a2a2;
     border-right: 2px;
     border-right-style: solid;
     border-right-color: rgba(255, 255, 255, .1);
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 15px 5px 10px;
     font-size: 10pt;
-    margin: 5px;
+    margin: 5px 5px 10px 5px;
 }
 
 #menu_cont{
-    padding-right: 250px;
+    padding-right: 310px;
 }
 
 #main_pic{
@@ -76,7 +77,7 @@ background-color: white;
 
 .mid_div{
     display: inline-block;
-    width: 180px;
+    width: 160px;
     margin-top: 10px;
 }
 
@@ -84,10 +85,12 @@ background-color: white;
     display: inline-block;
     width: 40px;
     height: 40px;
+    padding: 10px;
 }
 
 .mid_p{
     display: inline-block;
+    font-size: 10pt;
     color: white;
 }
 
@@ -107,7 +110,7 @@ background-color: white;
 
 #mid_bot2{
     display: inline-block;
-    width: 650px;
+    width: 625px;
     margin: 10px;
     text-align: justify;
 }
@@ -120,18 +123,19 @@ background-color: white;
 #mid_bot_p{
     display: inline-block;
     font-size: 10pt;
+    line-height: 20px;
 }
 
 #mid_but{
     display: inline-block;
-    padding: 5px 25px;
+    padding: 10px 30px;
     border-radius: 5px;
     font-weight: bold;
     border-color: #ed7d2a;
     color: white;
     background-color: #f08c42;
     margin: 30px 0px;
-    margin-left: 100px;
+    margin-left: 140px;
 }
 /* end of middle */
 #footer{
@@ -142,14 +146,16 @@ background-color: white;
 #foot_h2{
     display: inline-block;
     color: white;
+    margin: 10px;
 }
 
 #foot_head_p{
     display: inline-block;
-    margin-left: 680px;
+    margin-left: 710px;
     color: #ed7d2a;
     font-size: 10pt;
     font-style: italic;
+    margin-top: 10px;
 }
 
 #foot{
@@ -179,6 +185,8 @@ background-color: white;
 .foot_p{
     color: white;
     margin: 5px;
+    text-align: justify;
+    font-size: 10pt;
 }
 
 #back_{
